@@ -20,6 +20,10 @@ use Sonata\PageBundle\Model\SiteInterface;
  *
  * @author Thomas Rabaix <thomas.rabaix@sonata-project.org>
  */
+ abstract class Page implements PagesInterface
+ {
+     
+ }
 abstract class Page implements PageInterface
 {
     protected $createdAt;
